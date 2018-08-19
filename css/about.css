@@ -1,0 +1,64 @@
+
+.aboutText {
+    width: 100%
+}
+
+.aboutSubTitle {
+    margin-left: 2.5%;
+}
+
+.aboutImg{
+    width: 45%; 
+    float: right; 
+    margin-right: 10px; 
+    margin-bottom: 0px; 
+    margin-top: 20px; 
+    border: 2px solid #3bd0d2; 
+    display: inline-block; 
+    border-right: none
+}
+
+.aboutTextBlock {
+    width: 100%; 
+    display: inline-block
+}
+
+@media (min-width: 1600px) {.aboutImg {margin-top: -35px} }
+@media (min-width: 1600px) {.aboutTextBlock {margin-top: 70px}}
+/*@media only screen and (max-device-width: 1080px) and (max-aspect-ratio: 12/9) and (-webkit-min-device-pixel-ratio: 1.5),  (-o-min-device-pixel-ratio: 3/2), (min--moz-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {.aboutText {width: 90%} .aboutImg {float: none; width: 100%; margin-top: 0px; border-radius: 0px;} .dynText {display: block}}*/
+@media only screen and (max-device-width: 1080px) and (orientation: portrait) {.aboutText {width: 90%} .aboutImg {float: none; width: 100%; margin-top: 0px; border: none} .dynText {display: block}}
+@media only screen and (max-device-width: 1080px) and (orientation: landscape) {
+    #webText {width: 95%}
+}
+
+
+.data {
+	padding-left: 20px; 
+	padding-right: 20px;
+}
+
+.dataTable {
+	border: 1px solid black;
+	text-align: left;
+	float: left;
+	margin-right: 10px;
+}
+
+.dataTable td {
+	border: 1px solid black;
+}
+
+.mainHeading{
+	font-size:14pt;
+}
+
+.heading {
+	font-weight: bold;
+	text-align: center;
+}
+
+.tableBlock{
+    margin-top: 10px;
+	margin-bottom: 50px;
+    margin-left: 2.5%;
+}

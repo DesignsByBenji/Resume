@@ -1,0 +1,44 @@
+		
+		
+		.container {width:200px; border-radius: 5px; margin-top: 5px}
+		.container div {padding: 5px; width:96%;}
+		.container .header {padding-right: 5px; cursor: pointer; font-weight: bold;}
+		.container .content {display: none; padding: 5px; margin-bottom: 5px; margin-top: 0px}
+		.bimage {width: 75%; float: right; margin-right: 2.5%; margin-top="5px"; margin-bottom="5px" border-radius: 5px;}
+		.himage {height: 50px; border-radius: 5px; margin-left: 2.5%}
+		.h2image {float:right; width: 73%;  margin-right:2.5%; margin-bottom:15px; border-radius: 5px;}
+		.banner {border-radius: 10px; margin-top: 0px}
+		.name {float: right; height: 100px;}
+		form {margin-left: 2%;}
+		p {margin-left: 2.5%; margin-right: 2.5%; margin-bottom: 10px; font-family: tahoma; font-size: 11pt}
+		nav {white-space: nowrap; overflow: hidden}
+		nav ul ul {display:none;}
+		nav ul li:hover > ul {display: block;}
+		nav ul li:hover a {}
+		nav ul li{display: inline-table; }
+		nav ul {list-style: none; display: inline-table; margin-top: -15px; position: absolute}
+		nav ul:after {content: ""; clear: both; display:block;}
+		nav ul li ul{float: center; border: 1px solid #e5d2b0; border-radius: 5px; background-color: #602200; margin-top: 1px; padding-top: 2px; padding-bottom: 7px}
+		nav ul li ul li {display:block; margin-left: -20px; margin-top: -5px}
+		#faq {margin-left: 2%}
+		#map_canvas {width: 300px; height: 200px; float: right; margin-left: 30px; margin-right: 25px; margin-bottom: 10px; border: 1px solid #000000}
+		#navimage {height: 35px; opacity: 0.4; margin-right;}
+		#content {border: 0px solid #3bd0d2; width: 102%; min-width: 1000px; margin-left: -2%; margin-right: 0%; margin-bottom: 20px; background-color: white; background-image: url(Images/texture4.jpg); position: absolute; top: 175px; z-index: 0}
+		#overlay{position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: #000; opacity: 0.7; filter: alpha(opacity = 70) !important; display: none; z-index: 100;}
+		#overlayContent{position: fixed; width: 100%; top: 20%; text-align: center; display: none; overflow: auto; z-index: 100;}
+		#contentGallery{margin: 0px auto;}
+		#gallery {width: 75%; float: right; position:fixed; top:150px; left: 25%}
+		#title {display: block; margin-left: auto; margin-right: auto; height: 40px}
+		#custbanner {height: 100px; margin-left: 2%;}
+		.custTile {height: 100px; width: 350px; border: 3px solid #3bd0d2; float: left; background-color: black}
+		.custTile:hover {border: 2px solid black; background-color: #61a0a2}
+		#tileLeft {border-top-left-radius: 50px; border-bottom-left-radius: 50px; margin-right: 10px}
+		#tileRight {border-top-right-radius: 50px; border-bottom-right-radius: 50px }
+		.comments{width: 590px; height: 150px}
+		.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+		@media (max-width: 1300px) {.dynText {display: none}}
+		@media (max-width: 1750px) {.dynPic {display: none}}
+		.dynPic {width: 50%; margin-top: -275px; float: right; margin-right: 20px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border: 2px solid #3bd0d2}
+		.botBanner {width: 100%; margin-top: 20px; border-top: 2px solid #3bd0d2}
+		
+		@media only screen and (max-device-width: 1080px) and (orientation: portrait) {.dynPic {width: 100%; margin-top: 0px; border-radius: 0px; margin-bottom: -20px; float: none; display: block} .botBanner {margin-top: 0px}}

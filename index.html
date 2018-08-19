@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="shortcut icon" href="Images/icon.ico">
+<meta name="viewport" content="width=device-width, height = device-height, maximum-scale=1, user-scalable=yes">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Computer Science, Web Development & Software Engineering</title>
+</head>
+<body bgcolor = "#101010" onload = "">
+	<table>
+		<TR>
+			<TD><a href = "#/">
+                <img src="Images/benjiLogo.png" height = "125px" style="float: left; margin-left: 3%"></a>
+            </TD>
+			<TD>
+                <img src='Images/html(t).png' style='float: left; height: 50px; margin-top: 20px'>
+            </TD>
+			<TD>
+                <img src='Images/css(t).png' style='float: left; height: 50px;  margin-top: 20px'>
+            </TD>
+			<TD>
+                <img src='Images/js(t).png' style='float: left; height: 50px;  margin-top: 20px'>
+            </TD>
+		</TR>
+	</table>
+	<div ng-app='mainApp'>
+		<div id = "content">
+			<div ng-view></div>
+		</div>
+    </div>
+	<nav>
+		<ul class='navMenu'>
+			<!--<li><a href = "#/proving-grounds" ><img  id= "navimage" src="Images/provingMenu.png"></a></li>
+			<li><a href = "#/changes"><img src="Images/changeMenu.png" id= "navimage" style = "margin-left: 15px"></a></li>
+			<li><a href = "#/bug"><img src="Images/bugMenu.png" id= "navimage"></a></li>-->
+            <li><label class='menuTitle'><a href = "https://www.linkedin.com/in/designsbybenji/" class='menuLink'>
+            LinkedIn</a></label></li>
+            <li><label class='menuTitle'><a href = "https://github.com/DesignsByBenji" class='menuLink'>
+            GitHub</a></label></li>
+            <li><label class='menuTitle'><a href = "#/contact" class='menuLink'>
+            Contact</a></label></li>
+		</ul>
+	</nav>
+	
+
+<script src='js/angular.min.js'></script>
+<script src='js/angular-route.min.js'></script>
+<script src='js/viewController.js'></script>
+</body>
+</html>
